@@ -18,6 +18,4 @@ module tt_um_microtile (
 
    assign uo_out   = counter;
    
-  wire _unused = &{ena, ui_in, uio_in, uio_out, 1'b0};
-
 endmodule
